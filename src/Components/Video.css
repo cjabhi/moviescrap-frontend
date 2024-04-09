@@ -1,0 +1,23 @@
+.vcontainer{
+    min-width: 250px;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 3px solid rgb(122, 120, 120);
+    border-radius: 11px;
+}
+.vcontainer:hover{
+    transform: scale(1.1);
+}
+ a{
+    text-decoration: none;
+    color: rgb(255, 0, 55);
+}
+img{
+    object-fit: contain;
+    max-width: 100%;
+}
+a{
+    text-decoration: none;
+}
